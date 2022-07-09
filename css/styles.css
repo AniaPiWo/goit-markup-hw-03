@@ -1,0 +1,214 @@
+:root {
+  --brand-color: #2196f3;
+  --text-color: #212121;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--text-color)
+}
+
+.menu ul {
+  list-style-type: none;
+  }
+
+.advantages ul {
+    list-style-type: none;
+    }
+
+.logo a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.logo-2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+
+.logo-3 {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #fff;
+}
+
+.order-button {
+  color: #FFFFFF;
+  background-color: var(--brand-color);
+  border-radius:  4px;
+  border: 1px solid var(--brand-color);
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.order-button:hover {
+  cursor: pointer;
+}
+
+
+.filters-button {
+  width: 121px;
+  height: 38px;
+  background-color: #F5F4FA;
+  color:#212121;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+}
+
+.filters-button:hover {
+  background-color: var(--brand-color);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.filters-button:active {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  cursor: pointer;
+} 
+
+.link:hover {
+  color: var(--brand-color)
+}
+
+.link-header:hover {
+  color: var(--brand-color)
+}
+
+
+.banner-text {
+  font-size: 44px;
+  color: #fff;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.link-header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #212121;
+  }
+  
+  .link-header:hover {
+    color: var(--brand-color)
+  }
+
+.advantages-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.advantages-p {
+  color: #757575;
+
+}
+  
+.what-we-do-title {
+  font-size: 36px;
+}
+.our-team-title {
+    font-size: 36px;
+  }
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.team-position {
+  color: #757575;
+}
+
+.project {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.project-p {
+  color: #757575;
+
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #FFF;
+}
+
+.link-footer {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  }
+
+.banner {
+width: 1600px;
+height: 600px;
+background-color: #2F303A;
+}
+
+.footer-bg {
+width: 1600px;
+height: 252px;
+background: #2F303A;
+}
+
+.link-footer:hover {
+  color: var(--brand-color)
+}
