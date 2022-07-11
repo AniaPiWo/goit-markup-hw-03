@@ -22,29 +22,13 @@ body {
   box-sizing: border-box;
 }
 
-/* header */
-
-.link:hover {
-  color: var(--brand-color)
-}
-
-.link-header:hover {
-  color: var(--brand-color)
-}
-
-.link-header {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.8;
-  text-decoration: none;
-  color: #212121;
-  }
-
 /* logo */
 
 .logo a {
   text-decoration: none;
   cursor: pointer;
+  padding-left: 215px;
+  padding-right: 93px;
 }
 
 .logo-1 {
@@ -78,6 +62,42 @@ line-height: 31px;
 letter-spacing: 0.03em;
 color: #fff;
 }
+
+/* header */
+
+.menu {
+  display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-links {
+  display: flex;
+  
+}
+
+
+.nav-contacts {
+  display: flex;
+}
+
+.link:hover {
+  color: var(--brand-color)
+}
+
+.link-header:hover {
+  color: var(--brand-color)
+}
+
+.link-header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #212121;
+  }
+
 
 /* banner */
 
