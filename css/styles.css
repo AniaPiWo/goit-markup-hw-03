@@ -14,7 +14,33 @@ body {
 
 .advantages ul {
     list-style-type: none;
-    }
+  }
+
+* {
+  margin: 0;
+  padding 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+.link:hover {
+  color: var(--brand-color)
+}
+
+.link-header:hover {
+  color: var(--brand-color)
+}
+
+.link-header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #212121;
+  }
+
+/* logo */
 
 .logo a {
   text-decoration: none;
@@ -43,7 +69,6 @@ body {
   color: #000;
 }
 
-
 .logo-3 {
 font-family: 'Raleway';
 font-style: normal;
@@ -52,6 +77,31 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #fff;
+}
+
+/* banner */
+
+.banner {
+  width: 1600px;
+  height: 600px;
+  background-color: #2F303A;
+  }
+  
+
+.banner-text {
+  font-size: 44px;
+  color: #fff;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .order-button {
@@ -77,6 +127,8 @@ letter-spacing: 0.06em;
   cursor: pointer;
 }
 
+
+/* Filters */
 
 .filters-button {
   width: 121px;
@@ -105,42 +157,7 @@ letter-spacing: 0.06em;
   cursor: pointer;
 } 
 
-.link:hover {
-  color: var(--brand-color)
-}
-
-.link-header:hover {
-  color: var(--brand-color)
-}
-
-
-.banner-text {
-  font-size: 44px;
-  color: #fff;
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-}
-
-.link-header {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.8;
-  text-decoration: none;
-  color: #212121;
-  }
-  
-  .link-header:hover {
-    color: var(--brand-color)
-  }
+/* advantages */
 
 .advantages-title {
     font-size: 14px;
@@ -152,9 +169,14 @@ text-transform: uppercase;
 
 }
   
+/* what we do */
+
 .what-we-do-title {
   font-size: 36px;
 }
+
+/* our team */
+
 .our-team-title {
     font-size: 36px;
   }
@@ -169,6 +191,9 @@ text-transform: uppercase;
   color: #757575;
 }
 
+
+/* project */
+
 .project {
   font-size: 18px;
   line-height: 2;
@@ -178,6 +203,8 @@ text-transform: uppercase;
   color: #757575;
 
 }
+
+/* footer */
 
 .address {
   font-size: 14px;
@@ -196,12 +223,6 @@ text-transform: uppercase;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   }
-
-.banner {
-width: 1600px;
-height: 600px;
-background-color: #2F303A;
-}
 
 .footer-bg {
 width: 1600px;
