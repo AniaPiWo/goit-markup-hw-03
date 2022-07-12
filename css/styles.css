@@ -199,7 +199,7 @@ color: #fff;
   background-color: var(--brand-color);
   color: #ffffff;
   cursor: pointer;
-} 
+}
 
 /* advantages */
 
@@ -208,7 +208,7 @@ color: #fff;
   display: flex;
   flex-direction: row;
   margin: 94px 215px 94px 215px;
-  
+
 }
 
 
@@ -229,7 +229,7 @@ color: #fff;
  margin-top: 10px;
  margin-right: 30px;
 }
-  
+
 /* what we do */
 
 .what-we-do-title {
@@ -379,4 +379,3 @@ padding-bottom: 20px;
 .link-footer:hover {
   color: var(--brand-color);
 }
-
