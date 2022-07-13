@@ -16,6 +16,39 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+/* klasa pomocnicza */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* flex /*
+
+.flex {
+  display: flex;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* logo */
@@ -23,7 +56,8 @@ body {
 .logo-header a {
   text-decoration: none;
   cursor: pointer;
-  padding-left: 215px;
+  margin-left: 215px;
+  margin-right: 94px;
 }
 
 .logo-1 {
@@ -74,7 +108,6 @@ color: #fff;
   min-height: 80px;
   align-items: center;
   width: 100%;
-  margin-right: 46px;
   justify-content: flex-start;
 }
 
@@ -91,6 +124,7 @@ color: #fff;
   justify-content: flex-end;
   width: 100%;
   gap: 50px;
+  margin-right: 227px;
 }
 
 .link:hover {
@@ -117,20 +151,18 @@ color: #fff;
 
 /* banner */
 
-.banner {
-  width: 100%;
-  background-color: #2F303A;
-  }
+
 
 .banner-wrapper {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
   text-align: center;
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #2F303A;
   }
 
 .banner-text {
@@ -345,9 +377,9 @@ padding-bottom: 20px;
   cursor: pointer;
 }
 
-.footer-wrapper {
+.footer {
   background-color: #2F303A;
-  width: 100%;
+  width: 1600px;
   min-height: 252px;
   margin: 0 auto;
   padding-top: 60px;
