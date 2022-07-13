@@ -151,8 +151,6 @@ color: #fff;
 
 /* banner */
 
-
-
 .banner-wrapper {
   max-width: 1600px;
   height: 600px;
@@ -238,8 +236,8 @@ color: #fff;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: 94px 215px 94px 215px;
-
+  justify-content: space-around;
+  align-items: center;
 }
 
 
@@ -283,7 +281,7 @@ color: #fff;
 /* our team */
 
 .our-team-box {
-  width: 100%;
+width: 1600px;
 height: 648px;
 background: #F5F4FA;
 }
