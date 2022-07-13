@@ -194,6 +194,7 @@ color: #fff;
 /* Filters */
 
 .filters {
+  border: 1px solid red;
   max-width: 1600px;
   margin: 0px auto 0;
   padding-top: 94px;
