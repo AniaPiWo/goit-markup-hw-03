@@ -45,6 +45,7 @@ a {
   padding: 94px 0;
 }
 
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -98,17 +99,14 @@ color: #fff;
 .menu {
   background-color: #FFFFFF;
   display: flex;
-  max-width: 1170px;
   min-height: 80px;
   align-items: center;
-  width: 100%;
   justify-content: flex-start;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   gap: 46px;
   flex-direction: row;
 }
@@ -116,7 +114,6 @@ color: #fff;
 .nav-contacts {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   gap: 50px;
   margin-left: 347px;
 }
@@ -140,7 +137,6 @@ color: #fff;
 /* banner */
 
 .banner-wrapper {
-  height: 600px;
   margin: 0 auto;
   text-align: center;
   flex-direction: column;
@@ -148,6 +144,7 @@ color: #fff;
   align-items: center;
   justify-content: center;
   background-color: #2F303A;
+  padding: 200px 0;
   }
 
 .banner-text {
@@ -320,17 +317,13 @@ border-radius: 0px 0px 4px 4px;
 
 
 .projects {
-  list-style-type: none;
   display: flex;
-  line-height: 2;
   flex-wrap: wrap;
-  gap: 30px;
   padding-bottom: 94px;
+  gap: 30px;
 }
 
 .project-card {
-width: 370px;
-height: 404px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 justify-content: center;
@@ -355,11 +348,10 @@ padding-left: 24px;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
-/* identical to box height, or 188% */
 letter-spacing: 0.03em;
 color: #757575;
 padding-bottom: 20px;
-}
+} 
 
 
 /* footer */
