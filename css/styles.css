@@ -14,7 +14,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  background-color: ;
   box-shadow: 3px 3px 5px rgb(136, 136, 136);
 }
 
@@ -24,7 +23,8 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} 
+
 
 a {
   text-decoration: none;
@@ -292,16 +292,28 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 50px;
   }
 
+.our-team-card figcaption {
+    text-align: center;
+    margin: auto;
+    padding: 30px 0;
+  }
+  
 .team-name {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.17;
-}
-
-.team-position {
-  color: #757575;
-  margin-top: 10px;
-}
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+.team-position  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 
 
 /* project */
@@ -361,8 +373,6 @@ padding-bottom: 20px;
   background-color: #2F303A;
   min-height: 252px;
   margin: 0 auto;
-  padding-top: 60px;
-  padding-left: 215px;
   padding-bottom: 60px;
   line-height: 2;
 }
