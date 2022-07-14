@@ -25,7 +25,6 @@ body {
   padding: 0;
 } 
 
-
 a {
   text-decoration: none;
   cursor: pointer;
@@ -38,7 +37,6 @@ a {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  border: 1px solid red;
 }
 
 .section {
@@ -51,6 +49,11 @@ a {
   margin-right: auto;
 }
 
+/*pozioma linia pod header */
+
+main {
+  border-top: 1px solid #ECECEC;
+}
 
 /* logo */
 
@@ -319,8 +322,8 @@ border-radius: 0px 0px 4px 4px;
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   padding-bottom: 94px;
-  gap: 30px;
 }
 
 .project-card {
