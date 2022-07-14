@@ -37,6 +37,7 @@ a {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  border: 1px solid red;
 }
 
 .section {
@@ -322,7 +323,7 @@ border-radius: 0px 0px 4px 4px;
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-content: space-around;
   padding-bottom: 94px;
 }
 
