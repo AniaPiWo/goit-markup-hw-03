@@ -37,6 +37,7 @@ a {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  border: 1px solid red;
 }
 
 .section {
@@ -96,13 +97,13 @@ color: #fff;
   display: flex;
   align-items: center;
   margin: 0 auto;
+  padding: 25px 0;
  /*  border-bottom: 1px solid #ECECEC; */
 }
 
 .menu {
   background-color: #FFFFFF;
   display: flex;
-  min-height: 80px;
   align-items: center;
   justify-content: flex-start;
 }
@@ -189,8 +190,6 @@ color: #fff;
 }
 
 .filters-button {
-  width: 121px;
-  height: 38px;
   background-color: #F5F4FA;
   color:#212121;
   font-weight: 500;
@@ -221,14 +220,13 @@ color: #fff;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 30px;
 }
 
 
 .advantages-title {
     font-size: 14px;
     font-weight: bold;
-    height: 16px;
-    width: 270px;
   }
 
 .advantages-p {
@@ -239,10 +237,13 @@ color: #fff;
   letter-spacing: 0.03em;
   color: #757575;
  margin-top: 10px;
- margin-right: 30px;
 }
 
 /* what we do */
+
+.what-we-do {
+  padding-bottom: 94px;
+}
 
 .what-we-do-title {
   font-weight: 700;
@@ -263,7 +264,6 @@ color: #fff;
 /* our team */
 
 .our-team-box {
-height: 648px;
 background: #F5F4FA;
 }
 
@@ -274,8 +274,6 @@ background: #F5F4FA;
 }
 
 .our-team-card {
-width: 270px;
-height: 368px;
 background: #FFFFFF;
 /* material shadow v1 */
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -323,14 +321,15 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
-  gap: 30px;
+  row-gap: 30px;
+  justify-content: space-between;
 }
 
-.project-card {
+.project-card-textbox {
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
-justify-content: center;
-flex-basis: calc((100% - 60)/3);
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE; 
+border-left: 1px solid #EEEEEE;
 }
 
 .project-card:hover {
@@ -341,6 +340,7 @@ rgba(0, 0, 0, 0.12),
 }
 
 .project-title {
+padding-top: 20px;
 padding-left: 24px;
 font-weight: 700;
 font-size: 18px;
@@ -348,6 +348,7 @@ line-height: 36px;
 }
 
 .project-p {
+padding-bottom: 20px;
 padding-left: 24px;
 font-weight: 400;
 font-size: 16px;
@@ -367,7 +368,6 @@ padding-bottom: 20px;
 
 .footer {
   background-color: #2F303A;
-  min-height: 252px;
   margin: 0 auto;
   padding-bottom: 60px;
   line-height: 2;
